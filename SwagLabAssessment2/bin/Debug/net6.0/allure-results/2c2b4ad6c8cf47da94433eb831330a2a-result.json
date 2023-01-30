@@ -1,0 +1,86 @@
+{
+  "uuid": "bb093858a4214241a994d3be86a0b9ee",
+  "historyId": "ordering the prices by the dropdown menu1192443321",
+  "fullName": "ordering the prices by the dropdown menu",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-75D171T"
+    },
+    {
+      "name": "feature",
+      "value": "HomePagewithProblemUser"
+    }
+  ],
+  "links": [],
+  "name": "ordering the prices by the dropdown menu",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@class='product_sort_container']\"}\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@class='product_sort_container']\"}\n  (Session info: chrome=109.0.5414.120)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SwagLabAssessment2.Pages.SwagLabPage.get_dropdown() in C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\Pages\\SwagLabPage.cs:line 39\r\n   at SwagLabAssessment2.Pages.SwagLabPage.selectAnOption(String value) in C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\Pages\\SwagLabPage.cs:line 43\r\n   at SwagLabAssessment2.StepDefinitions.SwagLabsStepDefinitions.GivenSelectAnOptionOfSortingProductBy(String value) in C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\StepDefinitions\\SwagLabsStepDefinitions.cs:line 103\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  go to the \"https://www.saucedemo.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675099811113,
+      "stop": 1675099814975
+    },
+    {
+      "name": "And  select an option of sorting product by \"za\"",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675099814975,
+      "stop": 1675099814995
+    },
+    {
+      "name": "Then  check if the products are sorted according to the options selected",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675099814995,
+      "stop": 1675099814996
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "the value",
+      "value": "za"
+    }
+  ],
+  "start": 1675099811113,
+  "stop": 1675099814996
+}

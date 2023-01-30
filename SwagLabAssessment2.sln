@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabAssessment2", "SwagLabAssessment2\SwagLabAssessment2.csproj", "{6B769E0A-A511-4476-B9E2-D5412A0E600A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B769E0A-A511-4476-B9E2-D5412A0E600A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B769E0A-A511-4476-B9E2-D5412A0E600A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B769E0A-A511-4476-B9E2-D5412A0E600A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B769E0A-A511-4476-B9E2-D5412A0E600A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B69EAE01-D035-4189-9BFB-675146E6C51E}
+	EndGlobalSection
+EndGlobal
