@@ -28,9 +28,9 @@ namespace SwagLabAssessment2.Pages
         IWebElement productAdded => Driver.FindElement(By.XPath("//*[text()='Sauce Labs Backpack']"));
         public void AssertThatIsNotVisible() => Assert.IsFalse(productAdded.Displayed);
 
-        IWebElement dropdown => Driver.FindElement(By.XPath("//select[@class='product_sort_container']"));
+        IWebElement dropdown => Driver.FindElement(By.XPath("//select[@data-test='product_sort_container']"));
 
-        public void selectAnOption(String value)
+        public void selectAnOption(string value)
         {
             var selectElement = new SelectElement(dropdown);
             selectElement.SelectByValue(value);

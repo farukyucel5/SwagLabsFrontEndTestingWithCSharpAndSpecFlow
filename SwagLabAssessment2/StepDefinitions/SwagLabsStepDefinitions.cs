@@ -65,11 +65,12 @@ namespace SwagLabAssessment2.StepDefinitions
             swagLab.AssertThatIsNotVisible();
         }
 
-        [Given(@"select an option of sorting product by ""([^""]*)""")]
-        public void GivenSelectAnOptionOfSortingProductBy(string value)
+        [Then(@"select an option of sorting product by ""(.*)""")]
+        public void ThenSelectAnOptionOfSortingProductBy(string value)
         {
             swagLab.selectAnOption(value);
         }
+
 
 
 
@@ -105,11 +106,19 @@ namespace SwagLabAssessment2.StepDefinitions
             }
 
             if (step.Equals("za"))
+            {
                 swagLab.sortingProducts(step);
+            }
+               
             if (step.Equals("lohi"))
+            {
                 swagLab.sortingProducts(step);
+            }
+                
             if (step.Equals("hilo"))
+            {
                 swagLab.sortingProducts(step);
+            }
 
         }
 

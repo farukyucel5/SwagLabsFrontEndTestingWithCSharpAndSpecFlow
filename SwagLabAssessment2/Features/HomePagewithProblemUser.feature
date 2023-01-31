@@ -16,7 +16,7 @@
    Then click the "cart"
    And verify that the product is not available in the cart
 
- Scenario Outline: ordering the prices by the dropdown menu
+  Scenario Outline: ordering the prices by the dropdown menu
 	And select an option of sorting product by "<value>"
 	Then verify the step "<value>"
 	Examples: 
