@@ -1,0 +1,122 @@
+{
+  "uuid": "0209afccf18e42689e81c557b5164c8b",
+  "historyId": "login functionality with the wrong data1476504526",
+  "fullName": "login functionality with the wrong data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "FARUK"
+    },
+    {
+      "name": "feature",
+      "value": "Login Functionality"
+    }
+  ],
+  "links": [],
+  "name": "login functionality with the wrong data",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  go to the \"https://www.saucedemo.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262783798,
+      "stop": 1682262787251
+    },
+    {
+      "name": "And  enter your username \"performance_glitch_user\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262787251,
+      "stop": 1682262787312
+    },
+    {
+      "name": "And  enter the password \"123\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262787312,
+      "stop": 1682262787350
+    },
+    {
+      "name": "Then  click the \"loginBtn\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262787350,
+      "stop": 1682262787385
+    },
+    {
+      "name": "Then  verify that the user is not able to log in the \"swaglabs\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262787385,
+      "stop": 1682262787387
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "performance_glitch_user"
+    },
+    {
+      "name": "password",
+      "value": "123"
+    },
+    {
+      "name": "system",
+      "value": "swaglabs"
+    }
+  ],
+  "start": 1682262783798,
+  "stop": 1682262787387
+}

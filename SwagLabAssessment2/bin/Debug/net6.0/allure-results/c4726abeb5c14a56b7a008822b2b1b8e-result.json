@@ -1,0 +1,122 @@
+{
+  "uuid": "2e9eea869c9845de9fb379c5736c6b3c",
+  "historyId": "login functionality with the wrong data1788697751",
+  "fullName": "login functionality with the wrong data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "FARUK"
+    },
+    {
+      "name": "feature",
+      "value": "Login Functionality"
+    }
+  ],
+  "links": [],
+  "name": "login functionality with the wrong data",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  go to the \"https://www.saucedemo.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262770739,
+      "stop": 1682262773001
+    },
+    {
+      "name": "And  enter your username \"locked_out_user\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262773001,
+      "stop": 1682262773059
+    },
+    {
+      "name": "And  enter the password \"\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262773059,
+      "stop": 1682262773095
+    },
+    {
+      "name": "Then  click the \"loginBtn\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262773095,
+      "stop": 1682262773131
+    },
+    {
+      "name": "Then  verify that the user is not able to log in the \"swaglabs\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262773131,
+      "stop": 1682262773134
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "locked_out_user"
+    },
+    {
+      "name": "password",
+      "value": ""
+    },
+    {
+      "name": "system",
+      "value": "swaglabs"
+    }
+  ],
+  "start": 1682262770739,
+  "stop": 1682262773134
+}

@@ -1,0 +1,122 @@
+{
+  "uuid": "c9f5ae765bab4b958cae4b8e6082ea00",
+  "historyId": "login functionality with the wrong data287045721",
+  "fullName": "login functionality with the wrong data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "FARUK"
+    },
+    {
+      "name": "feature",
+      "value": "Login Functionality"
+    }
+  ],
+  "links": [],
+  "name": "login functionality with the wrong data",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  go to the \"https://www.saucedemo.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262776469,
+      "stop": 1682262778644
+    },
+    {
+      "name": "And  enter your username \"standard\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262778645,
+      "stop": 1682262778688
+    },
+    {
+      "name": "And  enter the password \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262778688,
+      "stop": 1682262778737
+    },
+    {
+      "name": "Then  click the \"loginBtn\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262778737,
+      "stop": 1682262778778
+    },
+    {
+      "name": "Then  verify that the user is not able to log in the \"swaglabs\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262778778,
+      "stop": 1682262778781
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "standard"
+    },
+    {
+      "name": "password",
+      "value": "secret_sauce"
+    },
+    {
+      "name": "system",
+      "value": "swaglabs"
+    }
+  ],
+  "start": 1682262776469,
+  "stop": 1682262778781
+}

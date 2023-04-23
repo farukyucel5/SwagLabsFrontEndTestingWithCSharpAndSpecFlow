@@ -1,0 +1,124 @@
+{
+  "uuid": "f95f5031e41d47ffad6e307ff25f57df",
+  "historyId": "login functionality for the correct data14622031",
+  "fullName": "login functionality for the correct data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "FARUK"
+    },
+    {
+      "name": "feature",
+      "value": "Login Functionality"
+    }
+  ],
+  "links": [],
+  "name": "login functionality for the correct data",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at SwagLabAssessment2.Hooks.Hooks.AfterScenario() in C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\Hooks\\Hooks.cs:line 14\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  go to the \"https://www.saucedemo.com\"",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682199516777,
+      "stop": 1682199517885
+    },
+    {
+      "name": "And  enter your username \"standard_user\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682199517886,
+      "stop": 1682199517887
+    },
+    {
+      "name": "And  enter the password \"secret_sauce\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682199517888,
+      "stop": 1682199517888
+    },
+    {
+      "name": "Then  click the \"loginBtn\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682199517888,
+      "stop": 1682199517888
+    },
+    {
+      "name": "Then  verify the step \"loggedIn\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682199517888,
+      "stop": 1682199517888
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "standard_user"
+    },
+    {
+      "name": "password",
+      "value": "secret_sauce"
+    },
+    {
+      "name": "system",
+      "value": "swaglabs"
+    }
+  ],
+  "start": 1682199516773,
+  "stop": 1682199517892
+}

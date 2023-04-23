@@ -1,0 +1,161 @@
+{
+  "uuid": "51374a470feb41efab4414b4e11be6ae",
+  "historyId": "ordering the prices by the dropdown menu-1457608411",
+  "fullName": "ordering the prices by the dropdown menu",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "FARUK"
+    },
+    {
+      "name": "feature",
+      "value": "HomePagewithProblemUser"
+    }
+  ],
+  "links": [],
+  "name": "ordering the prices by the dropdown menu",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 4999\r\n  But was:  2999\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: 4999\r\n  But was:  2999\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at SwagLabAssessment2.Pages.SwagLabPage.sortingProducts(String value) in C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\Pages\\SwagLabPage.cs:line 125\r\n   at SwagLabAssessment2.StepDefinitions.SwagLabsStepDefinitions.ThenVerifyTheStep(String step) in C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\StepDefinitions\\SwagLabsStepDefinitions.cs:line 120\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  go to the \"https://www.saucedemo.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262718963,
+      "stop": 1682262721747
+    },
+    {
+      "name": "And  enter your username \"problem_user\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262721747,
+      "stop": 1682262721801
+    },
+    {
+      "name": "And  enter the password \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262721801,
+      "stop": 1682262721851
+    },
+    {
+      "name": "Then  click the \"loginBtn\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262721851,
+      "stop": 1682262721905
+    },
+    {
+      "name": "Then  verify the step \"loggedIn\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262721905,
+      "stop": 1682262721910
+    },
+    {
+      "name": "And  just wait a second",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262721910,
+      "stop": 1682262724916
+    },
+    {
+      "name": "And  select an option of sorting product by \"hilo\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262724916,
+      "stop": 1682262724962
+    },
+    {
+      "name": "Then  verify the step \"hilo\"",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682262724962,
+      "stop": 1682262725014
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "value",
+      "value": "hilo"
+    }
+  ],
+  "start": 1682262718963,
+  "stop": 1682262725014
+}

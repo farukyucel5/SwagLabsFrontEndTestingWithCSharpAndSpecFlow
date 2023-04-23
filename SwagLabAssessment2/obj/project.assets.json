@@ -80,7 +80,7 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/17.4.1": {
+      "Microsoft.CodeCoverage/17.5.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
@@ -128,11 +128,11 @@
           "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.NET.Test.Sdk/17.4.1": {
+      "Microsoft.NET.Test.Sdk/17.5.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.4.1",
-          "Microsoft.TestPlatform.TestHost": "17.4.1"
+          "Microsoft.CodeCoverage": "17.5.0",
+          "Microsoft.TestPlatform.TestHost": "17.5.0"
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {}
@@ -166,7 +166,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/17.4.1": {
+      "Microsoft.TestPlatform.ObjectModel/17.5.0": {
         "type": "package",
         "dependencies": {
           "NuGet.Frameworks": "5.11.0",
@@ -263,10 +263,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.4.1": {
+      "Microsoft.TestPlatform.TestHost/17.5.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.4.1",
+          "Microsoft.TestPlatform.ObjectModel": "17.5.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -649,10 +649,10 @@
           }
         }
       },
-      "Selenium.Support/4.8.0": {
+      "Selenium.Support/4.9.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.8.0"
+          "Selenium.WebDriver": "4.9.0"
         },
         "compile": {
           "lib/net6.0/WebDriver.Support.dll": {}
@@ -661,7 +661,7 @@
           "lib/net6.0/WebDriver.Support.dll": {}
         }
       },
-      "Selenium.WebDriver/4.8.0": {
+      "Selenium.WebDriver/4.9.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -673,10 +673,10 @@
           "lib/net6.0/WebDriver.dll": {}
         },
         "build": {
-          "build/Selenium.WebDriver.targets": {}
+          "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/109.0.5414.7400": {
+      "Selenium.WebDriver.ChromeDriver/112.0.5615.4900": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -1886,10 +1886,10 @@
         "lib/netstandard2.0/Gherkin.xml"
       ]
     },
-    "Microsoft.CodeCoverage/17.4.1": {
-      "sha512": "T21KxaiFawbrrjm0uXjxAStXaBm5P9H6Nnf8BUtBTvIpd8q57lrChVBCY2dnazmSu9/kuX4z5+kAOT78Dod7vA==",
+    "Microsoft.CodeCoverage/17.5.0": {
+      "sha512": "6FQo0O6LKDqbCiIgVQhJAf810HSjFlOj7FunWaeOGDKxy8DAbpHzPk4SfBTXz9ytaaceuIIeR6hZgplt09m+ig==",
       "type": "package",
-      "path": "microsoft.codecoverage/17.4.1",
+      "path": "microsoft.codecoverage/17.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1929,6 +1929,7 @@
         "build/netstandard2.0/Microsoft.CodeCoverage.targets",
         "build/netstandard2.0/Microsoft.VisualStudio.TraceDataCollector.dll",
         "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
         "build/netstandard2.0/Mono.Cecil.dll",
         "build/netstandard2.0/ThirdPartyNotices.txt",
         "build/netstandard2.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
@@ -1946,7 +1947,7 @@
         "build/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
         "lib/net462/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.17.4.1.nupkg.sha512",
+        "microsoft.codecoverage.17.5.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
@@ -1979,10 +1980,10 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.NET.Test.Sdk/17.4.1": {
-      "sha512": "kJ5/v2ad+VEg1fL8UH18nD71Eu+Fq6dM4RKBVqlV2MLSEK/AW4LUkqlk7m7G+BrxEDJVwPjxHam17nldxV80Ow==",
+    "Microsoft.NET.Test.Sdk/17.5.0": {
+      "sha512": "IJ4eSPcsRbwbAZehh1M9KgejSy0u3d0wAdkJytfCh67zOaCl5U3ltruUEe15MqirdRqGmm/ngbjeaVeGapSZxg==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/17.4.1",
+      "path": "microsoft.net.test.sdk/17.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1998,7 +1999,7 @@
         "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
         "lib/net462/_._",
         "lib/netcoreapp3.1/_._",
-        "microsoft.net.test.sdk.17.4.1.nupkg.sha512",
+        "microsoft.net.test.sdk.17.5.0.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -2034,10 +2035,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/17.4.1": {
-      "sha512": "v2CwoejusooZa/DZYt7UXo+CJOvwAmqg6ZyFJeIBu+DCRDqpEtf7WYhZ/AWii0EKzANPPLU9+m148aipYQkTuA==",
+    "Microsoft.TestPlatform.ObjectModel/17.5.0": {
+      "sha512": "QwiBJcC/oEA1kojOaB0uPWOIo4i6BYuTBBYJVhUvmXkyYqZ2Ut/VZfgi+enf8LF8J4sjO98oRRFt39MiRorcIw==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/17.4.1",
+      "path": "microsoft.testplatform.objectmodel/17.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2130,14 +2131,14 @@
         "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.17.4.1.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/17.4.1": {
-      "sha512": "K7QXM4P4qrDKdPs/VSEKXR08QEru7daAK8vlIbhwENM3peXJwb9QgrAbtbYyyfVnX+F1m+1hntTH6aRX+h/f8g==",
+    "Microsoft.TestPlatform.TestHost/17.5.0": {
+      "sha512": "X86aikwp9d4SDcBChwzQYZihTPGEtMdDk+9t64emAl7N0Tq+OmlLAoW+Rs+2FB2k6QdUicSlT4QLO2xABRokaw==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/17.4.1",
+      "path": "microsoft.testplatform.testhost/17.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2200,7 +2201,7 @@
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
-        "microsoft.testplatform.testhost.17.4.1.nupkg.sha512",
+        "microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -2652,10 +2653,10 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "Selenium.Support/4.8.0": {
-      "sha512": "5sibZXRPiG/MpHGJzu4S4xkjCbQE04WTO0jWMug7+7DWI3Sqz1aL0dryEZxovQjUb09KB8MpJZtc7NBabJdvtg==",
+    "Selenium.Support/4.9.0": {
+      "sha512": "YzLglT1RymLURjlUQ5FjspDwaDRvPS/iEPPcU0DPDi9vSQUhZLgFEn1z6L2RuFQY+1Uo8LSN54awLK3fsB+UTg==",
       "type": "package",
-      "path": "selenium.support/4.8.0",
+      "path": "selenium.support/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2668,18 +2669,19 @@
         "lib/net6.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.1/WebDriver.Support.dll",
-        "selenium.support.4.8.0.nupkg.sha512",
+        "selenium.support.4.9.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.8.0": {
-      "sha512": "12/UPRx8JHOKnQTW4vTeLT+gkMPF/2RJFbGn6rGLj9NBffd62PdXYoFTWFeOwywSfNpWcJVyjzk9MXoJjrA0Ww==",
+    "Selenium.WebDriver/4.9.0": {
+      "sha512": "7MiV7cpu5LuM7bBhMz/a25Lb78rFyfl8v2G3q56TAtxdDJEj3WXaRMDyytrKq1YVZ7jaN3pygku0n0IsYfe/SQ==",
       "type": "package",
-      "path": "selenium.webdriver/4.8.0",
+      "path": "selenium.webdriver/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
         "images/icon.png",
         "lib/net45/WebDriver.dll",
         "lib/net46/WebDriver.dll",
@@ -2692,14 +2694,14 @@
         "manager/linux/selenium-manager",
         "manager/macos/selenium-manager",
         "manager/windows/selenium-manager.exe",
-        "selenium.webdriver.4.8.0.nupkg.sha512",
+        "selenium.webdriver.4.9.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/109.0.5414.7400": {
-      "sha512": "eTclb0YvUFujj9MCe3RfQvZA9LRcazmqoYzqmrOdW/FMhossjXOpbiaLsUsI84EDNFZQlkRMq4S61XmUtzZOaw==",
+    "Selenium.WebDriver.ChromeDriver/112.0.5615.4900": {
+      "sha512": "PjWk+/RzxDhnxsCKeprnHb4RRB+cE/ekMVrqdcmdPxNoK/rvfBZdxori5Fm+dh9BU080SLeOKrD8Mtah0HcwlQ==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/109.0.5414.7400",
+      "path": "selenium.webdriver.chromedriver/112.0.5615.4900",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2711,7 +2713,7 @@
         "driver/mac64arm/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.109.0.5414.7400.nupkg.sha512",
+        "selenium.webdriver.chromedriver.112.0.5615.4900.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -5710,11 +5712,11 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentAssertions >= 6.9.0",
-      "Microsoft.NET.Test.Sdk >= 17.4.1",
+      "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit3TestAdapter >= 4.3.1",
-      "Selenium.Support >= 4.8.0",
-      "Selenium.WebDriver >= 4.8.0",
-      "Selenium.WebDriver.ChromeDriver >= 109.0.5414.7400",
+      "Selenium.Support >= 4.9.0",
+      "Selenium.WebDriver >= 4.9.0",
+      "Selenium.WebDriver.ChromeDriver >= 112.0.5615.4900",
       "SpecFlow.Allure >= 3.5.0.73",
       "SpecFlow.NUnit >= 3.9.74",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
@@ -5722,19 +5724,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\faruk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
+      "projectUniqueName": "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
       "projectName": "SwagLabAssessment2",
-      "projectPath": "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\obj\\",
+      "projectPath": "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
+      "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
+      "outputPath": "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5766,7 +5768,7 @@
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "[17.4.1, )"
+            "version": "[17.5.0, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
@@ -5774,15 +5776,15 @@
           },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.8.0, )"
+            "version": "[4.9.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.8.0, )"
+            "version": "[4.9.0, )"
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[109.0.5414.7400, )"
+            "version": "[112.0.5615.4900, )"
           },
           "SpecFlow.Allure": {
             "target": "Package",
@@ -5817,7 +5819,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

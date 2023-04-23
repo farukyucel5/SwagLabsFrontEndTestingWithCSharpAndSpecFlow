@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj": {}
+    "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj": {}
   },
   "projects": {
-    "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj": {
+    "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
+        "projectUniqueName": "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
         "projectName": "SwagLabAssessment2",
-        "projectPath": "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\obj\\",
+        "projectPath": "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\SwagLabAssessment2.csproj",
+        "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
+        "outputPath": "C:\\ZLenovo\\Asoftware\\C#\\SwagLabAssessment2\\SwagLabAssessment2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,7 +46,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.4.1, )"
+              "version": "[17.5.0, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
@@ -54,15 +54,15 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.9.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.9.0, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[109.0.5414.7400, )"
+              "version": "[112.0.5615.4900, )"
             },
             "SpecFlow.Allure": {
               "target": "Package",
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
